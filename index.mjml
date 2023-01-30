@@ -1,0 +1,27 @@
+<mjml>
+    <mj-head></mj-head>
+    <mj-body>
+
+    <mj-section>
+  <!-- The carousel -->
+  <mj-carousel>
+    <mj-carousel-image src="image1.jpg"/>
+    <mj-carousel-image src="image2.jpg"/>
+    <mj-carousel-image src="image3.jpg"/>
+  </mj-carousel>
+  
+  <!-- The fallback for clients that don't support carousel -->
+  <mj-fallback>
+    <mj-image src="image1.jpg"/>
+    <mj-text>Image 1</mj-text>
+    <mj-image src="image2.jpg"/>
+    <mj-text>Image 2</mj-text>
+    <mj-image src="image3.jpg"/>
+    <mj-text>Image 3</mj-text>
+  </mj-fallback>
+</mj-section>
+
+
+    
+    </mj-body>
+</mjml>
